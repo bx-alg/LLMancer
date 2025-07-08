@@ -1,0 +1,7 @@
+com/llmancer/service/FileService.class
+com/llmancer/controller/PredictionController.class
+com/llmancer/config/CorsConfig.class
+com/llmancer/LLMancerApplication.class
+com/llmancer/dto/PredictionRequest.class
+com/llmancer/dto/PredictionResponse.class
+com/llmancer/service/LLMPredictionService.class
