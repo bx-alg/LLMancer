@@ -113,6 +113,7 @@
                     <div class="advanced-settings">
                       <el-form-item label="AI模型">
                         <el-select v-model="form.model" placeholder="选择AI模型">
+                          <el-option label="DeepSeek V3" value="deepseek-chat" />
                           <el-option label="GPT-3.5 Turbo" value="gpt-3.5-turbo" />
                           <el-option label="GPT-4" value="gpt-4" />
                         </el-select>
@@ -325,7 +326,7 @@ const form = reactive({
   sourceData: '',
   prompt: '',
   outputFormat: '',
-  model: 'gpt-3.5-turbo',
+  model: 'deepseek-chat',
   temperature: 0.7,
   maxTokens: 2000
 })
@@ -484,7 +485,7 @@ const loadHistoryItem = (item) => {
   
   form.prompt = item.request.prompt || ''
   form.outputFormat = item.request.outputFormat || ''
-  form.model = item.request.model || 'gpt-3.5-turbo'
+  form.model = item.request.model || 'deepseek-chat'
   form.temperature = item.request.temperature || 0.7
   form.maxTokens = item.request.maxTokens || 2000
   

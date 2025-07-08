@@ -14,7 +14,7 @@ public class PredictionRequest {
     @NotNull(message = "源数据不能为空")
     private String sourceData;
     
-    private String model = "gpt-3.5-turbo";
+    private String model = "deepseek-chat";
     private Double temperature = 0.7;
     private Integer maxTokens = 2000;
     

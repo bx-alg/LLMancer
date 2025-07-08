@@ -6,10 +6,11 @@ spring:
     name: llmancer-backend
   ai:
     openai:
-      api-key: ${OPENAI_API_KEY:your-api-key-here}
+      api-key: sk-bc99ada4163944d59e933244ed5402f6
+      base-url: https://api.deepseek.com
       chat:
         options:
-          model: gpt-3.5-turbo
+          model: deepseek-chat
           temperature: 0.7
           max-tokens: 2000
   servlet:
