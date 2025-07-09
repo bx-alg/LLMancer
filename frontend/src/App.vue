@@ -30,6 +30,10 @@
                 <el-icon><DataAnalysis /></el-icon>
                 <span>AI预测</span>
               </el-menu-item>
+              <el-menu-item index="/api-keys">
+                <el-icon><Key /></el-icon>
+                <span>API密钥</span>
+              </el-menu-item>
             </el-menu>
           </nav>
           
@@ -89,7 +93,8 @@ import {
   MagicStick,
   House,
   DataAnalysis,
-  Link
+  Link,
+  Key
 } from '@element-plus/icons-vue'
 
 const router = useRouter()

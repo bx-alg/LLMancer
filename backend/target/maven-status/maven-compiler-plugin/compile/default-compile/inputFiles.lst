@@ -1,7 +1,15 @@
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/LLMancerApplication.java
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/config/CorsConfig.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/controller/ApiKeyController.java
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/controller/PredictionController.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/dto/ApiKeyRequest.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/dto/ApiKeyResponse.java
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/dto/PredictionRequest.java
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/dto/PredictionResponse.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/entity/ApiKey.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/entity/LLMProvider.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/entity/PredictionHistory.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/mapper/ApiKeyMapper.java
+/Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/service/ApiKeyService.java
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/service/FileService.java
 /Users/bx/trae_code/LLMancer/backend/src/main/java/com/llmancer/service/LLMPredictionService.java

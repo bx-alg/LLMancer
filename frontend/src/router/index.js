@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Prediction from '../views/Prediction.vue'
+import ApiKeyManagement from '../views/ApiKeyManagement.vue'
 
 const routes = [
   {
@@ -17,6 +18,14 @@ const routes = [
     component: Prediction,
     meta: {
       title: 'AI预测 - LLMancer'
+    }
+  },
+  {
+    path: '/api-keys',
+    name: 'ApiKeyManagement',
+    component: ApiKeyManagement,
+    meta: {
+      title: 'API密钥管理 - LLMancer'
     }
   },
   {

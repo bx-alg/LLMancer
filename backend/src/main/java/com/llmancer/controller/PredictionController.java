@@ -47,7 +47,7 @@ public class PredictionController {
             @RequestParam("file") MultipartFile file,
             @RequestParam("prompt") String prompt,
             @RequestParam("outputFormat") String outputFormat,
-            @RequestParam(value = "model", defaultValue = "deepseek-chat") String model,
+            @RequestParam(value = "model", defaultValue = "qwen-plus") String model,
             @RequestParam(value = "temperature", defaultValue = "0.7") Double temperature,
             @RequestParam(value = "maxTokens", defaultValue = "2000") Integer maxTokens) {
         

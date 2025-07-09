@@ -113,9 +113,9 @@
                     <div class="advanced-settings">
                       <el-form-item label="AI模型">
                         <el-select v-model="form.model" placeholder="选择AI模型">
-                          <el-option label="DeepSeek V3" value="deepseek-chat" />
-                          <el-option label="GPT-3.5 Turbo" value="gpt-3.5-turbo" />
-                          <el-option label="GPT-4" value="gpt-4" />
+                          <el-option label="通义千问 Plus" value="qwen-plus" />
+                          <el-option label="通义千问 Turbo" value="qwen-turbo" />
+                          <el-option label="通义千问 Max" value="qwen-max" />
                         </el-select>
                       </el-form-item>
                       
@@ -326,7 +326,7 @@ const form = reactive({
   sourceData: '',
   prompt: '',
   outputFormat: '',
-  model: 'deepseek-chat',
+  model: 'qwen-plus',
   temperature: 0.7,
   maxTokens: 2000
 })

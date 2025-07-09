@@ -110,4 +110,7 @@ const apiMethods = {
   }
 }
 
+// 导出axios实例供其他模块使用
+export { api }
+
 export default apiMethods
